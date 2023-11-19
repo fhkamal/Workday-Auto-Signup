@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Workday Automatic Signup",
+    "description": "This extension autofills a Workday Signup using your email and a random password",
+    "version": "1.0",
+  
+    "action": {
+      "default_icon" : "download.png",
+      "default_popup": "popup.html",
+      "default_title": "Click here!"
+    },
+      
+    "permissions": [
+      "scripting",
+      "storage"
+    ],
+    "host_permissions": [
+      "*://*.myworkdayjobs.com/*/login*"
+    ]
+  }

@@ -1,0 +1,1 @@
+document.getElementById("uniqueID").value = localStorage["inputText"];
